@@ -1,0 +1,970 @@
+[2024-07-16 13:23:54] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-07-16 13:23:54] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-07-16 13:23:54] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-07-16 13:23:55] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-07-16 13:23:55] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-07-16 13:23:55] [class-ss-task.php:44] Status message: [setup] Configurar
+[2024-07-16 13:23:55] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234\
+[2024-07-16 13:23:55] [class-ss-setup-task.php:72] Adding origin URL to queue: https://localhost/spam/
+[2024-07-16 13:23:55] [class-ss-setup-task.php:137] File C:\xampp\htdocs\spam\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/spam/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-16 13:23:55] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-07-16 13:23:55] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-16 13:23:55] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-16 13:23:55] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-07-16 13:23:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/
+[2024-07-16 13:23:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-07-16 13:23:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746b91c14-YixIYO.tmp
+[2024-07-16 13:23:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/?simply_static_page=68
+[2024-07-16 13:23:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/?simply_static_page=68
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 43579 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746b91c14-YixIYO.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/index.html
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 36 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:53111a36ed4215d6ef8b8834bc53f67b0f5a127a===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/spam/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-07-16 13:23:56] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 0 de 2 páginas o archivos
+[2024-07-16 13:23:56] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-16 13:23:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-16 13:23:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:69] Total pages: 37; Pages remaining: 35
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c341b3-icmSWK.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam?simply_static_page=70
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam?simply_static_page=70
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 353 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:204] redirect_url: https://localhost/spam/
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-includes/js/jquery/jquery.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c39e5e-2advy1.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-includes/js/jquery/jquery.min.js?simply_static_page=71
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-includes/js/jquery/jquery.min.js?simply_static_page=71
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c39e5e-2advy1.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-includes/js/jquery/jquery.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c40ef4-6Dw8nr.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=72
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=72
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c40ef4-6Dw8nr.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/jquery.easing.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c47e44-LZ6qBE.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/jquery.easing.min.js?simply_static_page=73
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/jquery.easing.min.js?simply_static_page=73
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 2392 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/jquery.easing.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c47e44-LZ6qBE.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/jquery.easing.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:82bef20f71eb674c7d1d63242c80afbc1e6d8274===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/jquery.mousewheel.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c4f267-nD8heL.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/jquery.mousewheel.min.js?simply_static_page=74
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/jquery.mousewheel.min.js?simply_static_page=74
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 2711 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/jquery.mousewheel.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c4f267-nD8heL.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/jquery.mousewheel.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:044daf3a8f2789d7b80948dcf640bb72775f9df0===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/priority.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c560ba-aSItFm.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/priority.js?simply_static_page=75
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/priority.js?simply_static_page=75
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 1880 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/priority.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c560ba-aSItFm.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/priority.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:d99473157436c3d671ceb8bcf1c55de9ddfefcf6===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/intersection-observer.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c61740-yVm0l8.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/intersection-observer.min.js?simply_static_page=76
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/intersection-observer.min.js?simply_static_page=76
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 7204 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/intersection-observer.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c61740-yVm0l8.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/intersection-observer.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:895a82347b10ac399bd241ef7489af9e2435729d===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/transit.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c68104-nnMJdb.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/transit.min.js?simply_static_page=77
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/transit.min.js?simply_static_page=77
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 7416 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/transit.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c68104-nnMJdb.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/transit.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:7e7a63444fb918382d51bd2f7bd3757c0434ff10===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/waypoints.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c6eb40-9ne759.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/waypoints.js?simply_static_page=78
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/waypoints.js?simply_static_page=78
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 8999 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/waypoints.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c6eb40-9ne759.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/waypoints.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:ca580144be55dabae951a984529a5250d279b129===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/imagesLoaded.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c753ee-YnKOe3.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/imagesLoaded.min.js?simply_static_page=79
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/imagesLoaded.min.js?simply_static_page=79
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 5594 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/imagesLoaded.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c753ee-YnKOe3.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/imagesLoaded.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:6d3e11174e22668e69df236e5c4542168f7cbfec===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/hoverintent.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c7be27-OFP8lf.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/hoverintent.min.js?simply_static_page=80
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/hoverintent.min.js?simply_static_page=80
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 2245 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/hoverintent.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c7be27-OFP8lf.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/hoverintent.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:40920e71e0dc7b172c80ac5905f9a9c42aa8acf0===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/jquery.fancybox.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c943db-7gk6MO.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/jquery.fancybox.min.js?simply_static_page=81
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/jquery.fancybox.min.js?simply_static_page=81
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 68265 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/jquery.fancybox.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c943db-7gk6MO.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/jquery.fancybox.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:5c611ea459c4909912564053b512d060a675fe65===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/anime.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746c9ae5e-qAI24a.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/anime.min.js?simply_static_page=82
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/anime.min.js?simply_static_page=82
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 17741 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/anime.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746c9ae5e-qAI24a.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/anime.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:332031949d78a49e8a18611556253660574e47db===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/superfish.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746ca5922-bicyii.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/third-party/superfish.js?simply_static_page=83
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/third-party/superfish.js?simply_static_page=83
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 5692 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/third-party/superfish.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746ca5922-bicyii.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/third-party/superfish.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:c3788c2e7bcfbdb9067fb5579e9cf323609a2187===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/js/build/init.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746cb1554-6p01Am.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/js/build/init.js?simply_static_page=84
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/js/build/init.js?simply_static_page=84
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 360344 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/js/build/init.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746cb1554-6p01Am.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/js/build/init.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:4efe7e02b5f4c5d5f6c01090ef4831ef27687951===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/salient-core/js/third-party/touchswipe.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746cb8bb1-4GLMSW.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/salient-core/js/third-party/touchswipe.min.js?simply_static_page=85
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/salient-core/js/third-party/touchswipe.min.js?simply_static_page=85
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 9375 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/salient-core/js/third-party/touchswipe.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746cb8bb1-4GLMSW.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/salient-core/js/third-party/touchswipe.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:8b37d46d93eb907cf0f8f95c3220eda45387389e===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746cbf81e-lS3wAy.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js?simply_static_page=86
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js?simply_static_page=86
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 26583 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746cbf81e-lS3wAy.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:35b090889db267c357c08a2bd28f4a9fc199d796===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/uploads/2024/07/IMG_20210322_124514-transformed.jpeg
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746cc65d5-gAQMpm.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/uploads/2024/07/IMG_20210322_124514-transformed.jpeg?simply_static_page=87
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/uploads/2024/07/IMG_20210322_124514-transformed.jpeg?simply_static_page=87
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 425978 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/IMG_20210322_124514-transformed.jpeg
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746cc65d5-gAQMpm.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/uploads/2024/07/IMG_20210322_124514-transformed.jpeg
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:885ee910db972b12f98d3db02a159cd4d8b05c37===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-includes/css/dist/block-library/style.min.css
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746ccde6e-dDyhsW.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-includes/css/dist/block-library/style.min.css?simply_static_page=88
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-includes/css/dist/block-library/style.min.css?simply_static_page=88
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 113381 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746ccde6e-dDyhsW.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-includes/css/dist/block-library/style.min.css
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:b16a640874025d085c38119a1a02a3460f83f2de===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/font-awesome-legacy.min.css
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746cd5231-QWn8ZN.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/font-awesome-legacy.min.css?simply_static_page=89
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/font-awesome-legacy.min.css?simply_static_page=89
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 49935 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/font-awesome-legacy.min.css
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746cd5231-QWn8ZN.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/font-awesome-legacy.min.css
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:236c014763a0f9d7c16a89293430efb4b6df1ff4===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/build/grid-system.css
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746cde203-GDPMqi.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/build/grid-system.css?simply_static_page=90
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/build/grid-system.css?simply_static_page=90
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 21992 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/build/grid-system.css
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746cde203-GDPMqi.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/build/grid-system.css
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:ef0f8dcacfeeeff5e7e553bfc20b9ef0831774e2===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/build/style.css
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746ce50df-pvPOLF.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/build/style.css?simply_static_page=91
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/build/style.css?simply_static_page=91
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:103] Filesize: 165135 bytes
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/build/style.css
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746ce50df-pvPOLF.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/build/style.css
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:159] Adding 13 URLs to the queue
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:56] [class-ss-page.php:118] Checking Content Identical:65152152b3861e44b035636b38baa86502f3d43c===. Value: FALSE
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/build/elements/element-highlighted-text.css
+[2024-07-16 13:23:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 37
+[2024-07-16 13:23:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746cf289d-0NXcRa.tmp
+[2024-07-16 13:23:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/build/elements/element-highlighted-text.css?simply_static_page=92
+[2024-07-16 13:23:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/build/elements/element-highlighted-text.css?simply_static_page=92
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 3827 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/build/elements/element-highlighted-text.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746cf289d-0NXcRa.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/build/elements/element-highlighted-text.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:a59913d6d94ca4d07a00f524e28ab8fe721fac1c===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/build/responsive.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746d05243-ncXPFJ.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/build/responsive.css?simply_static_page=93
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/build/responsive.css?simply_static_page=93
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 39474 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/build/responsive.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746d05243-ncXPFJ.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/build/responsive.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:b5aedfc44bfe8217a996687c00d4ea9672b6fd46===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/build/skin-material.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746d0c702-2FtfUt.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/build/skin-material.css?simply_static_page=94
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/build/skin-material.css?simply_static_page=94
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 55477 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/build/skin-material.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746d0c702-2FtfUt.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/build/skin-material.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:fdba3813a62909c5d61a600973fff2ff5a5da509===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/uploads/salient/menu-dynamic.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746d13500-NBvz35.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/uploads/salient/menu-dynamic.css?simply_static_page=95
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/uploads/salient/menu-dynamic.css?simply_static_page=95
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 3598 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/salient/menu-dynamic.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746d13500-NBvz35.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/uploads/salient/menu-dynamic.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:694f359f5c0bbd1e4199efaa709e179f11fd5c37===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/css/js_composer.min.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746d2b940-Z2ZJEx.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/css/js_composer.min.css?simply_static_page=96
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/css/js_composer.min.css?simply_static_page=96
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 39738 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/css/js_composer.min.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746d2b940-Z2ZJEx.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/css/js_composer.min.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 13 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:e90a8b2a7e4f0d6f37f10d4c6ecaad1408f65c66===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/salient-dynamic-styles.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746d397b2-qdzi5L.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/salient-dynamic-styles.css?simply_static_page=97
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/salient-dynamic-styles.css?simply_static_page=97
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 124280 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/salient-dynamic-styles.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746d397b2-qdzi5L.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/salient-dynamic-styles.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:6ab563314a4e8bf87b99ab3e0ae2d758d11654f4===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient-child/style.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746d40c7d-R5bGNt.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient-child/style.css?simply_static_page=98
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient-child/style.css?simply_static_page=98
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 304 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient-child/style.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746d40c7d-R5bGNt.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient-child/style.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:6ebb71d4875d2f8b42bb011c26e2d0325ce328dd===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/index.php
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746d478a8-qxhurT.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/index.php?simply_static_page=99
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/index.php?simply_static_page=99
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:204] redirect_url: https://localhost/spam/
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:223] This looks like a redirect from http to https (or visa versa); adding new URL to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/xmlrpc.php
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: https://localhost/spam/xmlrpc.php
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/build/style-non-critical.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746db5bdd-0uegxw.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/build/style-non-critical.css?simply_static_page=101
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/build/style-non-critical.css?simply_static_page=101
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 24778 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/build/style-non-critical.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746db5bdd-0uegxw.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/build/style-non-critical.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:f888527b741251cb4ba1f4436f265510b60d316e===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/build/plugins/jquery.fancybox.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746dbd05b-JFnEXG.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/build/plugins/jquery.fancybox.css?simply_static_page=102
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/build/plugins/jquery.fancybox.css?simply_static_page=102
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 13897 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/build/plugins/jquery.fancybox.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746dbd05b-JFnEXG.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/build/plugins/jquery.fancybox.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:d81ef7f9f580a60a8ba6cdcde3988eb49824ee85===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/build/off-canvas/core.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746dc4a59-KQfXBC.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/build/off-canvas/core.css?simply_static_page=103
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/build/off-canvas/core.css?simply_static_page=103
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 22606 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/build/off-canvas/core.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746dc4a59-KQfXBC.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/build/off-canvas/core.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:d05f2c50865b3b50b41d47d7246586c9fd717969===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/build/off-canvas/slide-out-right-material.css
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 37
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746dcc0ff-5zGTr5.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/build/off-canvas/slide-out-right-material.css?simply_static_page=104
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/build/off-canvas/slide-out-right-material.css?simply_static_page=104
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 7276 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/build/off-canvas/slide-out-right-material.css
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746dcc0ff-5zGTr5.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/build/off-canvas/slide-out-right-material.css
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:d8a7d4d28190e3b711b7971e446d22cb948e287d===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 2 de 37 páginas o archivos
+[2024-07-16 13:23:57] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-16 13:23:57] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-16 13:23:57] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:69] Total pages: 67; Pages remaining: 30
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.eot
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 67
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746dd492a-PlBGGt.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.eot?simply_static_page=105
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.eot?simply_static_page=105
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 165742 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/fonts/fontawesome-webfont.eot
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746dd492a-PlBGGt.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/fonts/fontawesome-webfont.eot
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:d980c2ce873dc43af460d4d572d441304499f400===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.svg
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 67
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746ddbf42-NvHoWG.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.svg?simply_static_page=106
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.svg?simply_static_page=106
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 444379 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/fonts/fontawesome-webfont.svg
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746ddbf42-NvHoWG.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/fonts/fontawesome-webfont.svg
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.woff
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 67
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746de48ad-Mh1Vyq.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.woff?simply_static_page=107
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.woff?simply_static_page=107
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 98024 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/fonts/fontawesome-webfont.woff
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746de48ad-Mh1Vyq.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/fonts/fontawesome-webfont.woff
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:28b782240b3e76db824e12c02754a9731a167527===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.ttf
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 67
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746debb97-Bj6kWt.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.ttf?simply_static_page=108
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/fonts/fontawesome-webfont.ttf?simply_static_page=108
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:103] Filesize: 165548 bytes
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/fonts/fontawesome-webfont.ttf
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746debb97-Bj6kWt.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/fonts/fontawesome-webfont.ttf
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:57] [class-ss-page.php:118] Checking Content Identical:13b1eab65a983c7a73bc7997c479d66943f7c6cb===. Value: FALSE
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/img/icons/loading-white-bg.gif
+[2024-07-16 13:23:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 67
+[2024-07-16 13:23:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746df33b3-n6NLcR.tmp
+[2024-07-16 13:23:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/img/icons/loading-white-bg.gif?simply_static_page=109
+[2024-07-16 13:23:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/img/icons/loading-white-bg.gif?simply_static_page=109
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 2608 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/img/icons/loading-white-bg.gif
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746df33b3-n6NLcR.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/img/icons/loading-white-bg.gif
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:765add67e5c944edade07fc0baee0445f3800102===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/img/icons/quote.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e096da-2GYQb4.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/img/icons/quote.png?simply_static_page=110
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/img/icons/quote.png?simply_static_page=110
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 1340 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/img/icons/quote.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e096da-2GYQb4.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/img/icons/quote.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:7e369bf07e260936291fff34d2ed8be83354fcde===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/img/icons/link.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e100c2-iiEVNa.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/img/icons/link.png?simply_static_page=111
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/img/icons/link.png?simply_static_page=111
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 1443 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/img/icons/link.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e100c2-iiEVNa.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/img/icons/link.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:d9676ccc40dfa5b040a93750056d08dd4d1dbc81===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/img/icons/status.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e16c57-w7uqhz.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/img/icons/status.png?simply_static_page=112
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/img/icons/status.png?simply_static_page=112
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 1162 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/img/icons/status.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e16c57-w7uqhz.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/img/icons/status.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:c779fb13a41114d22cd9dfe644af0d0f6a73f990===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/img/icons/quote-2x.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e1d880-zYlcxx.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/img/icons/quote-2x.png?simply_static_page=113
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/img/icons/quote-2x.png?simply_static_page=113
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 1776 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/img/icons/quote-2x.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e1d880-zYlcxx.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/img/icons/quote-2x.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:77918339b4814490bfeebee0737ca4c670b9b301===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/img/icons/link-2x.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e2482d-ijsuFi.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/img/icons/link-2x.png?simply_static_page=114
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/img/icons/link-2x.png?simply_static_page=114
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 2078 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/img/icons/link-2x.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e2482d-ijsuFi.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/img/icons/link-2x.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:bf2e72a01299b56ea4a41c209e7ed7fbe353dfd8===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/img/icons/portfolio-arrows.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e2b757-rKMhgN.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/img/icons/portfolio-arrows.png?simply_static_page=115
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/img/icons/portfolio-arrows.png?simply_static_page=115
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 1189 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/img/icons/portfolio-arrows.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e2b757-rKMhgN.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/img/icons/portfolio-arrows.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:7cbcbc7e29d07b2f1909fd1fb6938f07308e1535===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/img/icons/portfolio-arrows-2x.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e3260a-UzGF8N.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/img/icons/portfolio-arrows-2x.png?simply_static_page=116
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/img/icons/portfolio-arrows-2x.png?simply_static_page=116
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 1467 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/img/icons/portfolio-arrows-2x.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e3260a-UzGF8N.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/img/icons/portfolio-arrows-2x.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:fe0c0377f06b00e5590053b0d1264c8c9783d647===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/img/icons/comment-children-line.jpg
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e391b2-RpfIY3.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/img/icons/comment-children-line.jpg?simply_static_page=117
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/img/icons/comment-children-line.jpg?simply_static_page=117
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 1125 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/img/icons/comment-children-line.jpg
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e391b2-RpfIY3.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/img/icons/comment-children-line.jpg
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:81e6e9d7d2e25046261c925828e519b9b85973fe===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.eot
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e3fceb-TfgaId.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.eot?simply_static_page=118
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.eot?simply_static_page=118
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 21488 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/fonts/icomoon.eot
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e3fceb-TfgaId.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/fonts/icomoon.eot
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:91b862ccbd0d2db8d9c6ab033b05a4b2574c6924===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.woff
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e46c59-lpFw5d.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.woff?simply_static_page=119
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.woff?simply_static_page=119
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 21400 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/fonts/icomoon.woff
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e46c59-lpFw5d.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/fonts/icomoon.woff
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:b87402d3911f443b6a9fdb60f5187ac026c66be2===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.ttf
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e4d7b1-YFole9.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.ttf?simply_static_page=120
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.ttf?simply_static_page=120
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 21324 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/fonts/icomoon.ttf
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e4d7b1-YFole9.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/fonts/icomoon.ttf
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:333f60f059b5f6b238a5374776a2fc45423d5439===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.svg
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e545cc-rMRK1L.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.svg?simply_static_page=121
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/themes/salient/css/fonts/icomoon.svg?simply_static_page=121
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 71158 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/salient/css/fonts/icomoon.svg
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e545cc-rMRK1L.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/themes/salient/css/fonts/icomoon.svg
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:2b4186ace26cf054174c3629f2fca78bee260104===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e61342-mEt57w.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?simply_static_page=122
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?simply_static_page=122
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 7668 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e61342-mEt57w.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:d73643ce17353688cc0214572501a60b4ed7cfdc===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e6824d-9988qs.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf?simply_static_page=123
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf?simply_static_page=123
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 7464 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e6824d-9988qs.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:af71650a4ea544c216f570eea03ff0f1a0cc8817===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e6ec95-NCFTKk.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff?simply_static_page=124
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff?simply_static_page=124
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 7540 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e6ec95-NCFTKk.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:ebb8ad34377298eb38291159cbae56200b5bdc67===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e759c5-q1DcLX.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg?simply_static_page=125
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg?simply_static_page=125
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 24504 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e759c5-q1DcLX.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:643def8dad20511bac79bbd1c41194c3858d335a===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/images/toggle_open.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e7cace-Ko51yt.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/images/toggle_open.png?simply_static_page=126
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/images/toggle_open.png?simply_static_page=126
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 223 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/images/toggle_open.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e7cace-Ko51yt.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/images/toggle_open.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:71cff87f2ef5ea0ea78476db58b7d4f46a903d78===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/images/toggle_close.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e8352c-L6Wuai.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/images/toggle_close.png?simply_static_page=127
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/images/toggle_close.png?simply_static_page=127
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 168 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/images/toggle_close.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e8352c-L6Wuai.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/images/toggle_close.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:25499d3d7ce14180a9833183c6acbffc4e2ea7fe===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.eot
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e8a04f-k7Xep6.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.eot?simply_static_page=128
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.eot?simply_static_page=128
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 6024 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.eot
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e8a04f-k7Xep6.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.eot
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:69f21afd212d64fc77b67243f85694ddb9a586f9===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.woff
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e90d66-QEHY4R.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.woff?simply_static_page=129
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.woff?simply_static_page=129
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 5924 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.woff
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e90d66-QEHY4R.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.woff
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:cc3656f05d51cac8321b3493dfbf073c443fa733===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.ttf
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e979cb-jBK3Bx.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.ttf?simply_static_page=130
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.ttf?simply_static_page=130
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 5848 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.ttf
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e979cb-jBK3Bx.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.ttf
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:fe8e534edd92f4b18ec3acd4347af157d48b1000===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.svg
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746e9e3f1-B2efdz.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.svg?simply_static_page=131
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.svg?simply_static_page=131
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 13215 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.svg
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746e9e3f1-B2efdz.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.svg
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:d85d24dd0152e91419b35f29d45000234a61cf9a===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/images/spinner.gif
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746ea543e-SAJySV.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/images/spinner.gif?simply_static_page=132
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/images/spinner.gif?simply_static_page=132
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 673 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/images/spinner.gif
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746ea543e-SAJySV.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/images/spinner.gif
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:a3243ca6a628b77b3523a18aff6bafae85b45adc===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/vc/tick.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746eabfcf-lcYAyd.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/vc/tick.png?simply_static_page=133
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/vc/tick.png?simply_static_page=133
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 244 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/vc/tick.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746eabfcf-lcYAyd.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/vc/tick.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:f29b65decc2d26af6e4b7a32b9fc92a69bf98bd6===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/vc/remove.png
+[2024-07-16 13:23:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 67
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746eb2d79-pC6NBV.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/wp-content/plugins/js_composer_salient/assets/vc/remove.png?simply_static_page=134
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/wp-content/plugins/js_composer_salient/assets/vc/remove.png?simply_static_page=134
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 265 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/js_composer_salient/assets/vc/remove.png
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746eb2d79-pC6NBV.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234/wp-content/plugins/js_composer_salient/assets/vc/remove.png
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:451b81bf646586496c3b28b0c4746f0ab9559f3b===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 37 de 67 páginas o archivos
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-16 13:23:58] [class-ss-fetch-urls-task.php:69] Total pages: 67; Pages remaining: 0
+[2024-07-16 13:23:58] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 67 de 67 páginas o archivos
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-07-16 13:23:58] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\david\AppData\Local\Temp/6696746ebbcc7-S9JdAQ.tmp
+[2024-07-16 13:23:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/spam/1721136239?simply_static_page=0
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/spam/1721136239?simply_static_page=0
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:103] Filesize: 296 bytes
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=iso-8859-1
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-07-16 13:23:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\david\AppData\Local\Temp/6696746ebbcc7-S9JdAQ.tmp to C:\xampp\htdocs\spam/wp-content/uploads\simply-static\temp-files/simply-static-1-1721136234\404/index.html
+[2024-07-16 13:23:58] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-07-16 13:23:58] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-07-16 13:23:58] [class-ss-page.php:118] Checking Content Identical:70728b452361e68760e82742ebcdf2bd0bb80109===. Value: FALSE
+[2024-07-16 13:23:58] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-07-16 13:23:58] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-07-16 13:23:58] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-07-16 13:23:58] [class-ss-task.php:44] Status message: [create_zip_archive] Archivo ZIP creado: <a href="https://localhost/spam/wp-content/uploads/simply-static/temp-files/simply-static-1-1721136234.zip">Haz clic aquí para descargar</a>
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-07-16 13:23:58] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-07-16 13:23:58] [class-ss-task.php:44] Status message: [wrapup] Terminando
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-07-16 13:23:58] [class-ss-archive-creation-job.php:324] Status message: [done] ¡Hecho! Ha finalizado en 00:00:04
